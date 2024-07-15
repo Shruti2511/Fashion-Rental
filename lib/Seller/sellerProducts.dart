@@ -34,7 +34,7 @@ class _SellerProductsState extends State<SellerProducts> {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
         ),
         backgroundColor: Colors.white,
-        iconTheme: IconThemeData(color: Colors.black), toolbarTextStyle: Theme.of(context).textTheme.apply(bodyColor: Colors.black).bodyText2, titleTextStyle: Theme.of(context).textTheme.apply(bodyColor: Colors.black).headline6,
+        //iconTheme: IconThemeData(color: Colors.black), toolbarTextStyle: Theme.of(context).textTheme.apply(bodyColor: Colors.black).bodyText2, titleTextStyle: Theme.of(context).textTheme.apply(bodyColor: Colors.black).headline6,
       ),
       body: Column(
         children: [

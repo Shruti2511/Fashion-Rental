@@ -52,7 +52,7 @@ class _AddToCartPageState extends State<AddToCartPage> {
               Center(
                 child: SizedBox(
                   height: 200,
-                  child: Image.asset(
+                  child: Image.network(
                     widget.imageUrl,
                     fit: BoxFit.cover,
                   ),

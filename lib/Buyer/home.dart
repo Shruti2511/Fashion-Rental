@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 MaterialPageRoute(
                   builder: (context) => LikedScreen(
                     likedImages: likedImages,
-                    dislikedImages: dislikedImages,
+                    // dislikedImages: dislikedImages,
                     points: points,
                   ),
                 ),
@@ -120,7 +120,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => ShoppingBag(cartImages: cartImages),
+                  builder: (context) => ShoppingBag(likedImages: likedImages),
                 ),
               );
             },

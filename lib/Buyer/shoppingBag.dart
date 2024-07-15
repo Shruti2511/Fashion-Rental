@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hackathon/Buyer/cartPage.dart';
 
 class ShoppingBag extends StatelessWidget {
-  final List<String> cartImages;
+  final List<String> likedImages;
 
-  ShoppingBag({required this.cartImages});
+  ShoppingBag({required this.likedImages,});
 
   @override
   Widget build(BuildContext context) {
@@ -22,14 +22,14 @@ class ShoppingBag extends StatelessWidget {
       ),
       body: ListView.builder(
         padding: EdgeInsets.all(16.0),
-        itemCount: cartImages.length,
+        itemCount: likedImages.length,
         itemBuilder: (context, index) {
           return GestureDetector(
             onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => AddToCartPage(imageUrl: cartImages[index]),
+                  builder: (context) => AddToCartPage(imageUrl: likedImages[index]),
                 ),
               );
             },
@@ -44,8 +44,8 @@ class ShoppingBag extends StatelessWidget {
                   children: [
                     ClipRRect(
                       borderRadius: BorderRadius.circular(10.0),
-                      child: Image.asset(
-                        cartImages[index],
+                      child: Image.network(
+                        likedImages[index],
                         width: 80,
                         height: 80,
                         fit: BoxFit.cover,
