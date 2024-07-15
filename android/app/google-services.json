@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698129409102",
+    "project_id": "fashion-rental-ee377",
+    "storage_bucket": "fashion-rental-ee377.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698129409102:android:d8c0dcef576b13caffcf1f",
+        "android_client_info": {
+          "package_name": "com.example.hackathon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALEFUFYUeYXSEdbUNEhJA97-UAPAtOMxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
